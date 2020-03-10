@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:text="Manage Account"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textAllCaps="true"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0787664331"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey_light"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit profile"
+        android:textSize="17sp"
+        android:drawableStart="@drawable/ic_account_blue"
+        android:drawablePadding="8dp"
+        android:textStyle="normal"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="16dp"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_light"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove account"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:drawableStart="@drawable/ic_remove_account"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:padding="16dp"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_light"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_sign_out"
+        android:drawablePadding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_light"/>
+
+
+
+
+
+
+</LinearLayout>
